@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: white;
+
+    height: 80px;
+
+    padding: 0 20px;
+
+    background-color: #222222;
+
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header__info{
+    margin-left: 30px;
+    padding: 15px;
+}
+
+.header__nav{
+
+    padding: 15px;
+}
+
+.header__car{
+    width: 60px;
+    height: 100%;
+    margin-left: 20px;
+    color: #000000;
+    background-color: #FFC107;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    margin:0 10px;
+}
+
+.header__divider{
+    height: 20px;
+    width: 2px;
+    background-color: white;
+}

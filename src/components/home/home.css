@@ -1,0 +1,50 @@
+
+.image-container{
+    width: 100%;
+    height: 250px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    position: absolute;
+}
+
+.image-container__p1{
+    top: 100px;
+}
+
+.image-container__p2{
+    top: 120px;
+}
+
+.title{
+    margin-left: 20px;
+}
+
+.title h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.title p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #999999;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.viewer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px
+}

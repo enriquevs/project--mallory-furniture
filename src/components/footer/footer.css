@@ -1,0 +1,63 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 200px;
+}
+
+.footer h4{
+    color: #F44336;
+}
+
+.footer__divider{
+    height: 2px;
+    width: 40px;
+    background-color: #999999;
+}
+
+.footer__info{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.footer__info__links{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__info__links__company{
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 50px;
+}
+
+.footer__info__links__company a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.footer__info__links__categories{
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 50px;    
+}
+
+.footer__info__links__categories a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: black;    
+}
+
+.footer__info__networks__icons img{
+    margin-right: 10px;
+}

@@ -1,0 +1,54 @@
+.card-view{
+    width: 350px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin:10px;
+    background: white;
+    text-decoration: none;
+
+    border: 2px #999999 solid;
+    border-radius: 5px; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.image-container{
+    widows: 100%;
+    height: 80%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.texts-container{
+    widows: 100%;
+    height: 20%;
+
+    margin: 0;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+}
+
+.texts-container h5{
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.texts-container p{
+    color: #999999;
+
+    padding: 0;
+    margin: 0;
+}
